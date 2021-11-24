@@ -1,7 +1,7 @@
 {
-    "title": "Gitbook Template",
+    "title": "Golang",
     "author": "renkeju",
-    "output.name": "site",
+    "output.name": "golang",
     "language": "zh-hans",
     "gitbook": "3.2.3",
     "root": ".",
@@ -16,7 +16,7 @@
     },
     "links": {
         "sidebar": {
-            "Home": "https://gitbook.renkeju.com"
+            "Home": "https://golang.renkeju.com"
         },
         "gitbook": false,
         "sharing": {
@@ -28,11 +28,10 @@
     "plugins": [
         "-lunr",
         "-search",
-        "todo",
         "expandable-chapters",
         "search-plus",
         "github",
-        "todo",
+        "todos",
         "terminal",
         "anchors",
         "edit-link",
@@ -44,7 +43,7 @@
     "pluginsConfig": {
         "favicon": "images/favicon.png",
         "github": {
-            "url": "https://github.com/renkeju/gitbook-template"
+            "url": "https://github.com/renkeju/golang"
         },
         "terminal": {
             "copyButtons": true,
@@ -52,7 +51,7 @@
             "style": "flat"
         },
         "edit-link": {
-            "base": "https://github.com/renkeju/gitbook-template/edit/master",
+            "base": "https://github.com/renkeju/golang/edit/master",
             "label": "编辑这个页面"
         },
         "image-captions": {
